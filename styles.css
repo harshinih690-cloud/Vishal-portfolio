@@ -1,0 +1,35 @@
+    .bg-text-stroke {
+      -webkit-text-stroke: 1.5px rgba(229, 9, 20, 0.45);
+      color: transparent;
+      letter-spacing: -0.04em;
+    }
+    .bg-text-filled {
+      color: rgba(140, 18, 22, 0.38);
+      letter-spacing: -0.03em;
+    }
+    .gradient-radial {
+      background: radial-gradient(circle at 50% 30%, rgba(229, 9, 20, 0.18) 0%, rgba(7, 7, 7, 0) 70%);
+    }
+    .text-glow {
+      text-shadow: 0 0 20px rgba(255, 42, 42, 0.45);
+    }
+    .badge-glow {
+      box-shadow: 0 0 12px rgba(229, 9, 20, 0.35);
+    }
+    /* Hide scrollbars for clean mobile app feel */
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    * {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    @keyframes hirePulse {
+      0% { box-shadow: 0 0 0 0 rgba(255, 42, 42, 0.65); background-color: #e50914; color: #fff; border-color: #ff2a2a; }
+      70% { box-shadow: 0 0 0 10px rgba(255, 42, 42, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 42, 42, 0); }
+    }
+    #hire-btn.hire-clicked {
+      animation: hirePulse 0.7s ease-out;
+    }
