@@ -6,19 +6,18 @@ A static one-page portfolio site. No build step required — it's plain HTML/CSS
 
 ```
 .
-├── index.html        # Main page markup
-├── styles.css         # Custom CSS (Tailwind itself loads via CDN inside index.html)
-├── script.js          # Hire button click-feedback animation
-├── vercel.json         # Static hosting config for Vercel
-├── images/             # All portfolio photos and logos
-│   ├── hero-portrait.jpg
-│   ├── royal-enfield.jpg
-│   ├── furncoms.jpg
-│   ├── unimaac-engineers.jpg
-│   ├── showroom.jpg
-│   ├── founder-strategist.jpg
-│   ├── crunchys.jpg
-│   └── thivyam.jpg
+├── index.html               # Main page markup
+├── styles.css                # Custom CSS (Tailwind itself loads via CDN inside index.html)
+├── script.js                 # Hire button click-feedback animation
+├── vercel.json                # Static hosting config for Vercel
+├── hero-portrait.jpg          # All portfolio photos and logos (root-level)
+├── royal-enfield.jpg
+├── furncoms.jpg
+├── unimaac-engineers.jpg
+├── showroom.jpg
+├── founder-strategist.jpg
+├── crunchys.jpg
+├── thivyam.jpg
 └── README.md
 ```
 
